@@ -44,7 +44,16 @@ jobs:
         run: |
           echo "Current Time (China): $(TZ='Asia/Shanghai' date)" > dist/current_time.txt
           echo "RUN_ID: ${{ github.run_id }}" >> dist/current_time.txt
-          echo "Username: ${{ github.actor }}" >> dist/current_time.txt
+          echo "工作流程运行的序号: ${{ github.run_number }}" >> dist/current_time.txt
+          echo "操作的执行者: ${{ github.actor }}" >> dist/current_time.txt
+          echo "触发工作流程的事件的名称: ${{ github.event_name }}" >> dist/current_time.txt
+          echo "工作流程的仓库的所有者和名称: ${{ github.repository }}" >> dist/current_time.txt
+          echo "工作流程的提交的 SHA 值: ${{ github.sha }}" >> dist/current_time.txt
+          echo "工作流程的名称: ${{ github.workflow }}" >> dist/current_time.txt
+          echo "工作流程的引用名称: ${{ github.ref }}" >> dist/current_time.txt
+          echo "工作流程的工作目录路径: ${{ github.workspace }}" >> dist/current_time.txt
+          echo "当前操作的名称: ${{ github.action }}" >> dist/current_time.txt
+          echo "工作流程的事件的完整负载数据: ${{ github.event }}" >> dist/current_time.txt
           echo "Other information: https://github.com/JackieDYH" >> dist/current_time.txt
 
       # 步骤2
