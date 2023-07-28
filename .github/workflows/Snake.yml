@@ -1,7 +1,7 @@
 name: Snake
 
 on:
-  # run automatically every 24 hours
+  # run automatically every 24 hours 每天0点更新
   schedule:
     - cron: '0 */24 * * *'
 
