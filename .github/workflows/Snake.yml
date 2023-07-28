@@ -53,7 +53,7 @@ jobs:
           echo "工作流程的引用名称: ${{ github.ref }}" >> dist/current_time.txt
           echo "工作流程的工作目录路径: ${{ github.workspace }}" >> dist/current_time.txt
           echo "当前操作的名称: ${{ github.action }}" >> dist/current_time.txt
-          echo "工作流程的事件的完整负载数据: ${{ github.event }}" >> dist/current_time.txt
+          echo "工作流程的事件的完整负载数据: ${{ JSON.stringify(github.event) }}" >> dist/current_time.txt
           echo "Other information: https://github.com/JackieDYH" >> dist/current_time.txt
 
       # 步骤2
