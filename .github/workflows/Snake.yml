@@ -42,7 +42,7 @@ jobs:
       # 步骤1.2 添加信息文件
       - name: Output current time and user information to file
         run: |
-          echo "Current Time (China): $(TZ='Asia/Shanghai' date)  \n" > dist/README.md
+          echo -e "Current Time (China): $(TZ='Asia/Shanghai' date)  \n" > dist/README.md
           echo -e "RUN_ID: ${{ github.run_id }}  \n" >> dist/README.md
           echo -e "Workflow: ${{ github.workflow }}  \n" >> dist/README.md
           echo -e "Run Number: ${{ github.run_number }}  \n" >> dist/README.md
