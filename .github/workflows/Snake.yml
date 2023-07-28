@@ -39,6 +39,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 步骤1.2
+      - name: Output current time to file
+        run: echo $(date) > dist/current_time.txt
+
       # 步骤2
       # https://github.com/crazy-max/ghaction-github-pages
       # push the content of <build_dir> to a branch
