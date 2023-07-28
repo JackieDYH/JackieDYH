@@ -1,23 +1,23 @@
-Current Time (China): Fri Jul 28 20:15:52 CST 2023  
+# Workflow Information
 
-RUN_ID: 5691809359  
+Current Time (China): Fri Jul 28 20:17:02 CST 2023  
 
-Workflow: Snake  
+**RUN_ID**: 5691820186  
 
-Run Number: 26  
+**Workflow**: Snake  
 
-Actor: JackieDYH  
+**Run Number**: 27  
 
-Event Name: schedule  
+**Actor**: JackieDYH  
 
-Repository: JackieDYH/JackieDYH  
+**Event Name**: push  
 
-Commit SHA: 5006d7138f7e05cb7f7cb474cef9f80b9a7fd31d  
+**Repository**: JackieDYH/JackieDYH  
 
-Ref: refs/heads/main  
+**Commit SHA**: dafbcb597656c7e61d8c7388fb31219dd730f46f  
 
-Event Path: /home/runner/work/_temp/_github_workflow/event.json  
+**Event Path**: /home/runner/work/_temp/_github_workflow/event.json  
 
-Workspace: /home/runner/work/JackieDYH/JackieDYH  
+**Workspace**: /home/runner/work/JackieDYH/JackieDYH  
 
 Other information: [https://github.com/JackieDYH](https://github.com/JackieDYH)
