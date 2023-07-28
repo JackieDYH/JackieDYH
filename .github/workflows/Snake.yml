@@ -39,7 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 步骤1.2
+      # 步骤1.2 添加信息文件
       - name: Output current time and user information to file
         run: |
           echo "Current Time (China): $(TZ='Asia/Shanghai' date)" > dist/current_time.txt
