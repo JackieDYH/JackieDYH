@@ -33,7 +33,6 @@ Here are some ideas to get you started:
 <br>
 
 <p align="center">
-
 <!--
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg alt=python width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg alt=mongodb width="30" height="30"/>
