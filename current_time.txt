@@ -1,4 +1,13 @@
-Current Time (China): Fri Jul 28 19:44:45 CST 2023
-RUN_ID: 5691553423
-Username: JackieDYH
+Current Time (China): Fri Jul 28 19:52:46 CST 2023
+RUN_ID: 5691613253
+工作流程运行的序号: 19
+操作的执行者: JackieDYH
+触发工作流程的事件的名称: push
+工作流程的仓库的所有者和名称: JackieDYH/JackieDYH
+工作流程的提交的 SHA 值: f30a394cb8f4f37f078232e5285183899cd91f83
+工作流程的名称: Snake
+工作流程的引用名称: refs/heads/main
+工作流程的工作目录路径: /home/runner/work/JackieDYH/JackieDYH
+当前操作的名称: __run
+工作流程的事件的完整负载数据: Object
 Other information: https://github.com/JackieDYH
