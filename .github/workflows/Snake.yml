@@ -43,9 +43,9 @@ jobs:
       - name: Output current time and user information to file
         run: |
           echo "Current Time (China): $(TZ='Asia/Shanghai' date)" > dist/current_time.txt
+          echo "RUN_ID: ${{ github.run_id }}" >> dist/current_time.txt
           echo "Username: ${{ github.actor }}" >> dist/current_time.txt
-          echo "run_id: ${{ github.run_id }}" >> dist/current_time.txt
-          echo "Other information" >> dist/current_time.txt
+          echo "Other information: https://github.com/JackieDYH" >> dist/current_time.txt
 
       # 步骤2
       # https://github.com/crazy-max/ghaction-github-pages
