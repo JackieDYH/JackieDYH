@@ -1,4 +1,4 @@
- name: Daily Commit
+ name: DailyCommit
 
    on:
      schedule:
