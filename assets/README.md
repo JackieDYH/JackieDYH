@@ -19,9 +19,8 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          ref: v2.4.3
+        # https://github.com/actions/checkout
+        uses: actions/checkout@v3
 
       - name: Create empty commit
         run: |
