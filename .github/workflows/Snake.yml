@@ -1,7 +1,7 @@
 name: Snake
 
 on:
-  # run automatically every 24 hours 每天0点执行'0 */24 * * *'  每天0，12点执行'0 0,12 * * *'
+  # run automatically every 24 hours 每24小时执行'0 */24 * * *'  每天0，12点执行'0 0,12 * * *'
   schedule:
     - cron: '0 */24 * * *'
 
@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
   # run on every push on the master branch
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   generate:
