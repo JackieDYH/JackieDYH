@@ -1,4 +1,15 @@
-### Hi there 👋 I'm JackieDYH <a href="https://github.com/JackieDYH"><img align="right" width="150px" src="https://raw.githubusercontent.com/JackieDYH/JackieDYH/main/assets/heart.svg"/></a>
+![](assets/Bottom_up.svg)
+
+<!-- my-JackieDYH -->
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I'm+JackieDYH;+Welcome+to+My+Profile!;Over+4+years+of+programming+experience;Always+learning+new+things+;Machine+learning+enthusiast+)](https://blog.csdn.net/JackieDYH)
+
+<a href="https://github.com/JackieDYH">
+	<img align="right" width="150px" src="https://raw.githubusercontent.com/JackieDYH/JackieDYH/main/assets/heart.svg"/>
+	<img align="right" width="120px" src="assets/Jackie.png"/>
+</a>
+
+<!-- ### Hi there 👋 I'm JackieDYH <a href="https://github.com/JackieDYH"><img align="right" width="150px" src="https://raw.githubusercontent.com/JackieDYH/JackieDYH/main/assets/heart.svg"/></a> -->
 
 - 💬 Here is [My Blog](https://jackiehao.blog.csdn.net), welcome to discuss the articles with me
 - 🔭 I’m currently working on ...
@@ -11,7 +22,13 @@
 
 ## 主页访问量 🇨🇳
 
+<!-- <p align="center">
+<img src="https://profile-counter.glitch.me/JackieDYH/count.svg">
+</p> -->
+
 ![Visitor Count](https://profile-counter.glitch.me/JackieDYH/count.svg)
+<br/>
+![](https://count.getloli.com/get/@JackieDYH.github.readme)
 
 <!--
 Here are some ideas to get you started:
@@ -79,3 +96,5 @@ Here are some ideas to get you started:
 [![](https://img.shields.io/badge/Nginx-269539?style=flat-square&logo=nginx&logoColor=ffffff)](https://nginx.org/)
 [![](https://img.shields.io/badge/NPM-cb3837?style=flat-square&logo=npm&logoColor=white)](https://npmjs.com/)
 [![](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=ffffff)](https://www.mongodb.com/)
+
+![](assets/Bottom_down.svg)
