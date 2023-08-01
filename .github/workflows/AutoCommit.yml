@@ -2,8 +2,8 @@ name: AutoCommit
 
 on:
   schedule:
-    # 中国时间上午10:42 CST（中国标准时间）/ 2:42 UTC（协调世界时） 配置时区就不用换算
-    - cron: '54 10 * * *'
+    # 中国时间上午10:42 CST（中国标准时间）/ 2:42 UTC（协调世界时）
+    - cron: '0 3 * * *'
   # allows to manually run the job at any time
   workflow_dispatch:
   # run on every push on the master branch
@@ -16,10 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up environment variables
-        env:
-          TZ: Asia/Shanghai
-
       - name: Checkout repository
         # https://github.com/actions/checkout
         uses: actions/checkout@v3
