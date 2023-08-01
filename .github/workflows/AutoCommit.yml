@@ -2,7 +2,7 @@ name: AutoCommit
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '42 10 * * *'
   # allows to manually run the job at any time
   workflow_dispatch:
   # run on every push on the master branch
