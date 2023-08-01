@@ -4,7 +4,7 @@ on:
   schedule:
     # 中国时间上午11:10 CST（中国标准时间）/ 3:10 UTC（协调世界时）
     # '0 3 * * *' CST每天上午11点执行 '0 22 * * *' CST每天上午6点执行 '*/3 * * * *' 每3分钟执行
-    - cron: '0 0/2 * * * ? *'
+    - cron: '*/2 * * * *'
   # allows to manually run the job at any time
   workflow_dispatch:
   # run on every push on the master branch
