@@ -2,13 +2,16 @@ name: AutoCommit
 
 on:
   schedule:
-    - cron: '47 2 * * *'
+    # 中国时间上午10:42 CST（中国标准时间）/ 2:42 UTC（协调世界时） 配置时区就不用换算
+    - cron: '51 10 * * *'
   # allows to manually run the job at any time
   workflow_dispatch:
   # run on every push on the master branch
   # push:
   #   branches:
   #     - main
+  env:
+    TZ: Asia/Shanghai
 
 jobs:
   commit:
