@@ -4,7 +4,7 @@ on:
   schedule:
     # 中国时间上午11:10 CST（中国标准时间）/ 3:10 UTC（协调世界时）
     # '0 22 * * *' CST每天上午6点执行 '*/6 * * * *' 每6分钟执行 最小触发间隔为 5 分钟
-    - cron: '0 20 * * *'
+    - cron: '0 0 * * *'
   # allows to manually run the job at any time
   workflow_dispatch:
   # run on every push on the master branch
