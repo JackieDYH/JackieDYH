@@ -24,10 +24,10 @@
 
 <!-- <p align="center">
 <img src="https://profile-counter.glitch.me/JackieDYH/count.svg">
-</p> -->
+</p>
 
 ![Visitor Count](https://profile-counter.glitch.me/JackieDYH/count.svg)
-<br/>
+<br/> -->
 ![](https://count.getloli.com/get/@JackieDYH.github.readme)
 
 <!--
@@ -35,11 +35,10 @@ Here are some ideas to get you started:
 -->
 
 ## 今年汇总 ✨
-
 <div>
-	<img height="180px" src="https://github-readme-stats.vercel.app/api?username=JackieDYH&show_icons=true&count_private=true&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
+	<!--<img height="180px" src="https://github-readme-stats.vercel.app/api?username=JackieDYH&show_icons=true&count_private=true&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
 	<img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JackieDYH&layout=compact&exclude_repo=Blog,JackieDYH.github.io,ShowRepoTrafficData,GoFish&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
-	<!--
+	
 	<img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=JackieDYH&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
 	<img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JackieDYH&hide_title=true&hide_border=true&layout=compact&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
 	-->
